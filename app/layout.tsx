@@ -153,9 +153,11 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className={`${_inter.variable} ${_poppins.variable} font-sans antialiased`}>
-        {children}
-      </body>
+     <body className={`${_inter.variable} ${_poppins.variable} font-sans antialiased`}>
+  <div className="min-h-screen w-full overflow-x-hidden">
+    {children}
+  </div>
+</body>
     </html>
   )
 }
