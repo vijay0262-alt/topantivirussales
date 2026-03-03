@@ -71,7 +71,7 @@ export default function HomePage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <main className="min-h-screen">
+      <main className="min-h-screen"><div className="max-w-7xl mx-auto px-4">
         <Header />
         <HeroSection />
         <TopPicks />
@@ -80,7 +80,7 @@ export default function HomePage() {
         <DealCards />
         <HowWeTest />
         <FaqSection />
-        <Footer />
+        <Footer /></div>
       </main>
     </>
   )
