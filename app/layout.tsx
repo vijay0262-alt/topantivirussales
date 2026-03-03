@@ -140,7 +140,7 @@ export default function RootLayout({
   }
 
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <head>
         {/* DNS prefetch & preconnect for performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
